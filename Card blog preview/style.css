@@ -41,6 +41,11 @@ body {
   box-shadow: 8px 8px 0 0 black;
 }
 
+.banner:hover {
+  box-shadow: 12px 12px 0 0 black;
+  transition: 0.3s ease-in-out;
+}
+
 header {
   margin: 24px;
 }
@@ -82,6 +87,12 @@ main h1 {
   font-size: var(--font-size-g);
   font-weight: var(--font-weight-b);
   color: var(--gray-950);
+}
+
+main h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 main p {
